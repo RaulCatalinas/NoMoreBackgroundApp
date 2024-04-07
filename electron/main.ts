@@ -3,9 +3,7 @@ import { BrowserWindow, app } from "electron"
 
 // NodeJS
 import path from "node:path"
-
-// Constants
-import { dirname } from "../src/constants/node"
+import url from "node:url"
 
 // The built directory structure
 //
@@ -16,7 +14,10 @@ import { dirname } from "../src/constants/node"
 // │ │ ├── main.js
 // │ │ └── preload.js
 // │
-process.env.DIST = path.join(dirname, "../dist")
+process.env.DIST = path.join(
+	path.dirname(url.fileURLToPath(import.meta.url)),
+	"../dist"
+)
 process.env.VITE_PUBLIC = app.isPackaged
 	? process.env.DIST
 	: path.join(process.env.DIST, "../public")
@@ -29,7 +30,10 @@ function createWindow() {
 	win = new BrowserWindow({
 		icon: path.join(process.env.VITE_PUBLIC, "electron-vite.svg"),
 		webPreferences: {
-			preload: path.join(dirname, "preload.js")
+			preload: path.join(
+				path.dirname(url.fileURLToPath(import.meta.url)),
+				"preload.js"
+			)
 		}
 	})
 
