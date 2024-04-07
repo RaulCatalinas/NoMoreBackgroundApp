@@ -1,9 +1,12 @@
 {
   "recommendations": [
+    "astro-build.astro-vscode",
     "oven.bun-vscode",
+    "dbaeumer.vscode-eslint",
     "davidanson.vscode-markdownlint",
     "yoavbls.pretty-ts-errors",
-    "stylelint.vscode-stylelint",
-    "biomejs.biome"
-  ]
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss"
+  ],
+  "unwantedRecommendations": []
 }
