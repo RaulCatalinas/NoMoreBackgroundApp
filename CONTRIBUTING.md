@@ -12,7 +12,7 @@ Contributions of all types are welcome, including:
 
 ## To-do's
 
-- [ ] Creating the GUI
+- [x] Creating the GUI
 - [ ] Add testing
 - [ ] Add logic to remove background from images
 - [ ] Add Spanish translation

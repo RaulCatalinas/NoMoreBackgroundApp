@@ -34,7 +34,11 @@ function createWindow() {
 				path.dirname(url.fileURLToPath(import.meta.url)),
 				"preload.js"
 			)
-		}
+		},
+		width: 784,
+		height: 591,
+		center: true,
+		resizable: false
 	})
 
 	// Test active push message to Renderer-process.

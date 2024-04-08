@@ -1,0 +1,30 @@
+.dropzone {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: calc(100vw - 64px);
+  height: calc(100vh - 64px);
+  padding: 20px;
+
+  color: black;
+
+  background-color: #fafafa;
+  border-color: #eee;
+  border-style: dashed;
+  border-width: 2;
+  border-radius: 2;
+  outline: none;
+
+  transition: border .24s ease-in-out;
+}
+
+.invalid-file {
+  border-color: red;
+}
+
+.valid-file {
+  border-color: green;
+}

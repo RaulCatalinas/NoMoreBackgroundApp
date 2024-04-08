@@ -4,6 +4,7 @@
     "davidanson.vscode-markdownlint",
     "yoavbls.pretty-ts-errors",
     "stylelint.vscode-stylelint",
-    "biomejs.biome"
+    "biomejs.biome",
+    "clinyong.vscode-css-modules"
   ]
 }
