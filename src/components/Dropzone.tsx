@@ -4,9 +4,18 @@ import styles from "@/css/dropzone.module.css"
 // React-Dropzone
 import { useDropzone } from "react-dropzone"
 
+// Hooks
+import { useDrop } from "@/hooks/useDrop"
+
 export default function Dropzone() {
+	const { handleAcceptedDrop, handleRejectedDrop } = useDrop()
+
 	const { getInputProps, getRootProps, isDragReject, isDragAccept } =
-		useDropzone({ accept: { "image/*": [] } })
+		useDropzone({
+			accept: { "image/*": [] },
+			onDropAccepted: handleAcceptedDrop,
+			onDropRejected: handleRejectedDrop
+		})
 
 	return (
 		<div

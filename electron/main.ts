@@ -32,8 +32,9 @@ function createWindow() {
 		webPreferences: {
 			preload: path.join(
 				path.dirname(url.fileURLToPath(import.meta.url)),
-				"preload.js"
-			)
+				"preload.mjs"
+			),
+			nodeIntegration: true
 		},
 		width: 784,
 		height: 591,
