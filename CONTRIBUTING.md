@@ -13,6 +13,7 @@ Contributions of all types are welcome, including:
 ## To-do's
 
 - [ ] Creating the GUI
+- [ ] Add the logic to create the app executable for Windows, Linux and MacOS
 - [ ] Add testing
 - [ ] Add logic to remove background from images
 - [ ] Add Spanish translation
