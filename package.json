@@ -19,7 +19,7 @@
 		"@biomejs/biome": "1.6.4",
 		"@s-ui/mono": "2.45.0",
 		"@types/react": "18.2.74",
-		"@types/react-dom": "18.2.24",
+		"@types/react-dom": "18.2.25",
 		"@vitejs/plugin-react-swc": "3.6.0",
 		"electron": "29.2.0",
 		"electron-builder": "24.13.3",
