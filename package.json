@@ -16,7 +16,7 @@
 		"react-toastify": "10.0.5"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.6.4",
+		"@biomejs/biome": "1.7.0",
 		"@s-ui/mono": "2.45.0",
 		"@types/react": "18.2.79",
 		"@types/react-dom": "18.2.25",
