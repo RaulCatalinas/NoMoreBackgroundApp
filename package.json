@@ -18,7 +18,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.6.4",
 		"@s-ui/mono": "2.45.0",
-		"@types/react": "18.2.78",
+		"@types/react": "18.2.79",
 		"@types/react-dom": "18.2.25",
 		"@vitejs/plugin-react-swc": "3.6.0",
 		"electron": "29.3.0",
