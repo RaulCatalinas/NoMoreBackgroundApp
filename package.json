@@ -10,7 +10,7 @@
 		"co": "sui-mono commit"
 	},
 	"dependencies": {
-		"react": "18.2.0",
+		"react": "18.3.1",
 		"react-dom": "18.2.0",
 		"react-dropzone": "14.2.3",
 		"react-toastify": "10.0.5"
@@ -18,7 +18,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.7.1",
 		"@s-ui/mono": "2.45.0",
-		"@types/react": "18.2.79",
+		"@types/react": "18.3.1",
 		"@types/react-dom": "18.2.25",
 		"@vitejs/plugin-react-swc": "3.6.0",
 		"electron": "30.0.1",
