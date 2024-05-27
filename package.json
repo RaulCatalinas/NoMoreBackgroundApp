@@ -20,7 +20,7 @@
 		"@s-ui/mono": "2.45.0",
 		"@types/react": "18.3.2",
 		"@types/react-dom": "18.3.0",
-		"@vitejs/plugin-react-swc": "3.6.0",
+		"@vitejs/plugin-react-swc": "3.7.0",
 		"electron": "30.0.6",
 		"electron-builder": "24.13.3",
 		"markdownlint": "0.34.0",
