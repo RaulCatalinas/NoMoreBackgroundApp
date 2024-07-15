@@ -24,7 +24,7 @@
 		"electron": "31.2.0",
 		"electron-builder": "24.13.3",
 		"markdownlint": "0.34.0",
-		"stylelint": "16.6.1",
+		"stylelint": "16.7.0",
 		"stylelint-config-clean-order": "6.1.0",
 		"stylelint-config-standard": "36.0.1",
 		"typescript": "5.5.3",
