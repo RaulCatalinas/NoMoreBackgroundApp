@@ -16,19 +16,19 @@
 		"react-toastify": "10.0.6"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.9.3",
+		"@biomejs/biome": "1.9.4",
 		"@s-ui/mono": "2.45.0",
 		"@types/react": "18.3.11",
 		"@types/react-dom": "18.3.1",
 		"@vitejs/plugin-react-swc": "3.7.1",
-		"electron": "32.2.0",
+		"electron": "33.0.1",
 		"electron-builder": "25.1.8",
 		"markdownlint": "0.35.0",
 		"stylelint": "16.10.0",
 		"stylelint-config-clean-order": "6.1.0",
 		"stylelint-config-standard": "36.0.1",
 		"typescript": "5.6.3",
-		"vite": "5.4.8",
+		"vite": "5.4.9",
 		"vite-plugin-electron": "0.28.8",
 		"vite-plugin-electron-renderer": "0.14.6",
 		"vite-tsconfig-paths": "5.0.1"
